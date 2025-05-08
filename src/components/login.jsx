@@ -2,9 +2,9 @@ import React from "react";
 
 export default function Login() {
   return (
-    <div className="min-h-screen flex items-center justify-center bg-neutral-900 text-white">
-      <div className="bg-gray-800 p-10 rounded shadow-lg">
-        <h2 className="text-3xl font-bold mb-6">Login</h2>
+    <div className="min-h-screen flex items-center justify-center bg-slate-900 text-white animate__animated animate__bounceInUp">
+      <div className="bg-gray-800 p-10 rounded shadow-lg animate__animated animate__bounceIn animate__delay-2s">
+        <h2 className="text-3xl font-bold mb-6 flex justify-center">Login</h2>
         <form>
           <div className="mb-4">
             <label>Email</label>
