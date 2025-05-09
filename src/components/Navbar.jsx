@@ -22,9 +22,9 @@ const Navbar = () => {
         <div className="flex items-center bg-slate-900 h-full w-full sm:w-auto relative sm:pl-10" style={{ clipPath: 'polygon(30px 0, 100% 0, 100% 100%, 0% 100%)' }}>
           <ul className="flex items-center justify-center sm:justify-end gap-2 p-0 m-0 list-none font-sans text-xs px-5 h-full w-full">
             <li className="text-white flex items-center gap-2">
-              <Link to="/login" href="#"
+              <Link to="/Login" href="#"
                 className="bg-gradient-to-r from-red-600 to-indigo-800 bg-clip-text text-transparent text-2xl px-3 py-2 font-bold no-underline hover:text-red-900  transition-all duration-500 ease-in-out delay-200">Login</Link>
-              <Link to="/register" href="#"
+              <Link to="/Register" href="#"
                 className="bg-gradient-to-r from-red-600 to-indigo-800 bg-clip-text text-transparent text-2xl px-3 py-2 font-bold no-underline hover:text-red-900  transition-all duration-500 ease-in-out delay-200">Daftar</Link>         
             </li>
           </ul>
