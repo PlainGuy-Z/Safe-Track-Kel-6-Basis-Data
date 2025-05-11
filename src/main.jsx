@@ -6,9 +6,11 @@ import App from './App.jsx'
 import "animate.css";
 import Navbar from './components/Navbar.jsx';
 import Login from './components/login.jsx';
-import Register from './components/register.jsx';
+import Register from './components/Register.jsx';
 import Start from './components/start.jsx';
 import Dashboard from './components/Dashboard.jsx'; 
+import Send from './components/Send.jsx';
+
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -21,6 +23,7 @@ createRoot(document.getElementById('root')).render(
           <Route path="/Register" element={<Register />} />
           <Route path="/Start" element={<Start />} />
           <Route path="/Dashboard" element={<Dashboard />} />
+          <Route path="/Send" element={<Send />} />
       </Routes>
       </BrowserRouter>
     </div>

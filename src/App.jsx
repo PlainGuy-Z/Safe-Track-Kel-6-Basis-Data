@@ -1,11 +1,12 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
+
 export default function App() {
   return (
     <div className="min-h-screen h-[200vh] bg-gray-950 ">
       
-      <div className="w-full h-170 bg-[url('/newww.png')] bg-[position:center_150vh]">
+      <div className="w-full h-170 ">
         
         {/* left content */}
         <div className="w-full md:w-2/5 text-white px-5 md:pl-[60px] pt-10 animate__animated animate__backInLeft animate__delay-1s">

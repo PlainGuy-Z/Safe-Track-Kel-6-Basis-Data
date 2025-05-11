@@ -1,4 +1,6 @@
 import React from "react";
+import { Link } from "react-router-dom";
+
 
 export default function Register() {
     return (
@@ -31,9 +33,12 @@ export default function Register() {
                             placeholder="Masukkan password"
                         />
                     </div>
-                    <button className="w-full bg-indigo-700 hover:bg-indigo-900 py-2 rounded text-yellow-400 font-bold">
-                        Masuk
-                    </button>
+
+
+                    <Link to="/Login" href="#">
+                        <button className="w-full bg-indigo-700 hover:bg-indigo-900 py-2 rounded text-yellow-400 font-bold">
+                            Masuk
+                        </button></Link>
                 </form>
             </div>
         </div>

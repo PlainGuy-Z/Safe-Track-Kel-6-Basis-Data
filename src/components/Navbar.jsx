@@ -11,8 +11,8 @@ const Navbar = () => {
           <li className="text-white flex items-center hover:text-yellow-600 transition-all duration-700 ease-in-out delay-200">
             <img src="s.png" className="h-[30px] w-[50px] block" alt="picture" />
           </li>
-          <li className="flex items-center font-bold bg-gradient-to-r from-red-600 to-indigo-800 bg-clip-text  hover:text-rose-900 transition-all duration-500 easy-in-out delay-200 text-transparent ml-2">
-            <h3 className="text-xl">SafeTrack</h3>
+          <li className="flex items-center font-bold  transform hover:-translate-y-2 hover:scale-103 transition-all duration-300   hover:shadow-lg hover:shadow-blue-500/50 bg-gradient-to-r from-red-600 to-indigo-800 bg-clip-text  hover:text-rose-900 transition-all duration-500 easy-in-out delay-200 text-transparent ml-2">
+            <h3 className="text-xl ">SafeTrack</h3>
           </li>
         </ul>
       </div>
